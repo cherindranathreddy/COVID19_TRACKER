@@ -1,0 +1,12 @@
+#stats__cases{
+    background-color:var(--yellow);
+  }
+  
+  #stats__recovered{
+    background-color:var(--green);
+  }
+  
+  #stats__deaths{
+    background-color:var(--red);
+  }
+  

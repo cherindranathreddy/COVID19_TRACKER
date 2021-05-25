@@ -1,6 +1,14 @@
+:root{
+  --yellow : #fce205;
+  --red: #ed2939;
+  --green: #00a86b;
+}
+
 * {
   margin: 0;
 }
+
+
 
 body {
   background-color: #f5f6fa;
@@ -8,10 +16,9 @@ body {
 
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   background-color: #f5f6fa;
-  padding: 20px;
-  flex-direction: column;
 }
 
 .app__left{
@@ -40,8 +47,9 @@ body {
 
 .app__stats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
+
 
 .app__left {
   flex: 0.9;

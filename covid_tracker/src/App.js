@@ -86,15 +86,15 @@ function App() {
 
 
         <div className="app__stats">
-            <InfoBox title="Coronavirus Cases" 
+            <InfoBox title="Coronavirus Cases" id="stats__cases"
              active={countryInfo.todayCases} 
              total={countryInfo.cases}
             />
-            <InfoBox title="Recovered"
+            <InfoBox title="Recovered" id="stats__recovered"
              active={countryInfo.todayRecovered} 
              total={countryInfo.recovered}
             />
-            <InfoBox title="Deaths" 
+            <InfoBox title="Deaths" id="stats__deaths"
             active={countryInfo.todayDeaths} 
             total={countryInfo.deaths}
            />
