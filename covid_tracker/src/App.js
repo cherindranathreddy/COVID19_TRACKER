@@ -99,9 +99,11 @@ function App() {
             total={countryInfo.deaths}
            />
         </div>
-
+        
       </div>
 
+      <h3 id="note">PS:The API(disease.sh) used to fecth data stopped collecting data recently.
+        So plz ignore the cases,recovered,death numbers displayed.</h3>
 
       <Card className="app__right">
         <CardContent>

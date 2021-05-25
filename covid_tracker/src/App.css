@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+#note{
+  color: var(--red);
+  margin : 0 auto;
+}
 
 
 body {

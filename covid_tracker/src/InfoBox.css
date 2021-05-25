@@ -1,3 +1,9 @@
+:root{
+    --yellow : #fce205;
+    --red: #ed2939;
+    --green: #00a86b;
+  }
+
 #stats__cases{
     background-color:var(--yellow);
   }
