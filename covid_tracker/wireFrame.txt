@@ -1,0 +1,25 @@
+1{
+    draw.io
+
+    create-react-app nameOfProject
+    cd nameOfProject
+    npm start
+}
+
+2{
+    clean up the project
+    {
+        delete all test files(.test) - 2
+        delete logo.svg
+        delete everything in <div className="App">
+        delete everything in app.css
+    }
+}
+
+3{
+    structure of covid tracker(top level design html+css)
+}
+
+4{
+
+}
