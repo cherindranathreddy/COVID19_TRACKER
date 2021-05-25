@@ -102,7 +102,7 @@ function App() {
         
       </div>
 
-      <h3 id="note">PS:The API(disease.sh) used to fecth data stopped collecting data recently.
+      <h3 id="note">PS:The API(disease.sh) used to fecth data has been collecting data inaccuratly recently.
         So plz ignore the cases,recovered,death numbers displayed.</h3>
 
       <Card className="app__right">
